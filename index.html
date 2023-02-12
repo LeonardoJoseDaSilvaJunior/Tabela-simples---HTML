@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <!-- O atributo  rel "stylesheet" indica que o arquivo que será adicionado é um css.
+         O atributo  href="css/style.css" mostra todo o caminho que foi percorrido até chegar no arquivo final.-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- inicia a tabela -->
+    <table>
+        <!-- aption : adicona uma descrição pra tabela -->
+        <caption>Tabela de produtos</caption>
+        <!-- thead  : É utilizada para colocar os títulos de cada coluna -->
+        <thead>
+            <!-- tr: Indica a criação de uma linha na tabela -->
+            <tr>
+                <!-- th: Indica a crição de uma coluna e à nomeia   -->
+                <th>Produto</th>
+                <th>Preço (mensal)</th>
+            </tr>
+        </thead>
+        <!-- tbody: É o espaço destinado para a criação de linhas -->
+        <tbody>
+            <tr>
+                <!-- td: Indica a criação de células na  -->
+                <td>Curso Back-End</td>
+                <td> R$ 100</td>
+            </tr>
+            <tr>
+                <td>Curso Front-End</td>
+                <td>R$ 100</td>
+            </tr>
+            <tr>
+                <td>Curso Full Stack</td>
+                <td>R$150</td>
+            </tr>
+        </tbody>
+        <!-- tfoot: Indica o fim de una tabela -->
+        <tfoot>
+            <tr>
+                <td>TOTAL: </td>
+                <td class="preco">R$ 350</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
